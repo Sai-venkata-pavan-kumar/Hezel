@@ -1,0 +1,28 @@
+{
+  "name": "updatehezel",
+  "version": "1.0.0",
+  "description": "hazel",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "package": "electron-builder -p always"
+  },
+  "build": {
+    "publisher": [
+      {
+        "provider": "github",
+        "owner": "Sai-venkata-pavan-kumar",
+        "repo": "testUpdate"
+      }
+    ]
+  },
+  "keywords": [],
+  "author": "pavan",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.2.1",
+    "electron-builder": "^24.6.4",
+    "electron-updater": "^6.1.4"
+  }
+}
